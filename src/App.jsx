@@ -1,10 +1,11 @@
-import './App.css'
+import styles from "./App.module.css"
+import Navbar from './components/Nav/Navbar.jsx'
 
 function App() {
   return (
-    <>
-      <h1>Teste de fonte</h1>
-    </>
+    <div className={styles.App}>
+      <Navbar/>
+    </div>
   )
 }
 
