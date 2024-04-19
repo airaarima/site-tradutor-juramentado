@@ -15,7 +15,7 @@
     font-family: Copperplate;
     font-size: 30px;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-secondary);
 }
 
 .menu{
@@ -31,7 +31,11 @@
 
 .menuItem{
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-secondary);
+}
+
+.menuItem:hover{
+    color: var(--color-tertiary);
 }
 
 .menuBtn{
@@ -65,8 +69,12 @@
         align-items: center;
         gap: 13px;
         border-radius: 4px;
-        background: rgba(66, 66, 66, 0.8);
+        background: rgba(45, 45, 45, 0.868);
         padding: 20px 30px;
+    }
+
+    .menuItem{
+        font-weight: 600;
     }
 
     .menuOpen{
