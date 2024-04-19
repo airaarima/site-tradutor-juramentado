@@ -1,0 +1,75 @@
+@import '../../vars.css';
+
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title{
+    font-size: 60px;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+}
+
+.description{
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    text-align: justify;
+}
+
+.contatoBtn{
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    font-size: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+}
+
+.pessoalImg{
+    width: 40vw;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 820px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .title{
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .description{
+        font-size: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .pessoalImg{
+        width: 80%;
+    }
+}
