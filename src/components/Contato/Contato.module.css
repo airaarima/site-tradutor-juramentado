@@ -1,0 +1,45 @@
+@import "../../vars.css";
+
+.container{
+    background: var(--color-tertiary);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.contentContact{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+}
+
+.contentContact img{
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column;
+    }
+
+    .contentText{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 35px
+    }
+}
