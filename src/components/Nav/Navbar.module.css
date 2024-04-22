@@ -29,13 +29,16 @@
     font-size: 18px;
 }
 
+
 .menuItem{
     text-decoration: none;
     color: var(--color-secondary);
+    transition: .25s ease;
 }
 
 .menuItem:hover{
     color: var(--color-tertiary);
+    box-shadow: 0 2px 0 0 currentColor;
 }
 
 .menuBtn{

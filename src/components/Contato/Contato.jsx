@@ -9,23 +9,23 @@ const Contato = () => {
             <h1 className={styles.title}>Contato</h1>
             <p className={styles.description}>Sinta-se a vontade para entrar em contato comigo!</p>
         </div>
-        <div>
+        <div className={styles.contacts}>
             
-            <a className={styles.contentContact}>
+            <a className={styles.contentContact} href="mailto:joschlosser@gmail.com">
                 <img src={getImgPath('contato/emailIcon.png')} alt="" />
-                joschlosser@gmail.com
+                <span>joschlosser@gmail.com</span>
             </a>
             
             <a href="https://www.linkedin.com/in/josiane-nicoloso-schlosser-a2a16846/?originalSubdomain=br " target='_blank' className={styles.contentContact}>
                 <img src={getImgPath('contato/linkedinIcon.png')} alt="" />
 
-                LinkedIn
+                <span>LinkedIn</span>
             </a>
 
             <a href="https://wa.me/5555996578731?text=Olá, Josiane. Gostaria de fazer um orçamento para a tradução/versão de um documento." target='_blank' className={styles.contentContact}>
                 <img src={getImgPath('contato/whatsIcon.png')} alt="" /> 
 
-                WhatsApp
+                <span>WhatsApp</span>
                     
             </a>
         </div>
