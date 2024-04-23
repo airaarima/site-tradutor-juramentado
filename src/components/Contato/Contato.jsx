@@ -10,10 +10,9 @@ const Contato = () => {
             <p className={styles.description}>Sinta-se a vontade para entrar em contato comigo!</p>
         </div>
         <div className={styles.contacts}>
-            
             <a className={styles.contentContact} href="mailto:joschlosser@gmail.com">
                 <img src={getImgPath('contato/emailIcon.png')} alt="" />
-                <span>joschlosser@gmail.com</span>
+                <span>E-mail</span>
             </a>
             
             <a href="https://www.linkedin.com/in/josiane-nicoloso-schlosser-a2a16846/?originalSubdomain=br " target='_blank' className={styles.contentContact}>

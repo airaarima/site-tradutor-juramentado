@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .container{
-    background: var(--color-tertiary);
     color: var(--color-text);
     display: flex;
     justify-content: space-around;
@@ -52,6 +51,21 @@
     }
 
     .contentContact{
-        font-size: 20px;
+        font-size: 16px;
+        flex-direction: column;
+    }
+
+    .contentContact>span{
+        margin-top: 5px;
+    }
+
+    .contentContact img{
+        margin-right: 0px;
+    }
+
+    .contacts{
+        display: flex;
+        justify-content: center;
+        gap: 20%;
     }
 }
