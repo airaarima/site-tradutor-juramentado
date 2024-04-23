@@ -1,4 +1,9 @@
 @font-face {
     font-family: "Copperplate";
     src: url(./Copperplate/OPTICopperplate-Light.ttf) format('truetype');
-  }
+}
+
+@font-face {
+  font-family: "LouisGeorge";
+  src: url(./LouisGeorge/LouisGeorgeCafe.ttf) format('truetype');
+}
