@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Algum título",
+      "imageSrc": "trabalhos/imagem.png",
+      "description": "alguma descrição",
+      "link": "https://link/"
+    },
+      {
+        "title": "Algum título",
+        "imageSrc": "trabalhos/imagem.png",
+        "description": "alguma descrição",
+        "link": "https://link/"
+      },
+      {
+        "title": "Algum título",
+        "imageSrc": "trabalhos/imagem.png",
+        "description": "alguma descrição",
+        "link": "https://link/"
+      }
+    ]

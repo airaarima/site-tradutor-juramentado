@@ -1,0 +1,53 @@
+@import '../../vars.css';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    padding: 18px 24px;
+    width: 250px;
+    height: 370px;
+    color: black;
+    position: relative;
+}
+
+.img{
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.seta{
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
+
+.seta>img{
+    width: 40px;
+}
+
+@media screen and (max-width: 740px){
+    .container{
+        width: 200px;
+        height: 300px;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .description{
+        font-size: 15px;
+    }
+}
