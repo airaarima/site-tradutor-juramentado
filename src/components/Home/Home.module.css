@@ -41,9 +41,17 @@
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 }
 
+.divImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
 .pessoalImg{
-    width: 40vw;
+    width: 30vw;
     z-index: 1;
+    border-radius: 20px 0px 20px 0px;
 }
 
 
@@ -72,7 +80,11 @@
         font-size: 20px;
     }
 
+    .divImg{
+        margin-left: 0px;
+    }
+
     .pessoalImg{
-        width: 80%;
+        width: 50vw;
     }
 }

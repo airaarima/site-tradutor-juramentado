@@ -7,7 +7,7 @@ const Sobre = () => {
     <section id="sobre" className={styles.container}>
         <h2 className={styles.title}>Sobre</h2>
         <div className={styles.content}>
-            <img src="" alt="" className={styles.sobreImg}/>
+            <img src={getImgPath("pessoal/bancada2.jpg")} alt="" className={styles.sobreImg}/>
             <ul className={styles.sobreItens}>
                 <li className={styles.sobreItem}>
                     <img src={getImgPath("sobre/experiente-branco.png")} alt="Experience icon" />

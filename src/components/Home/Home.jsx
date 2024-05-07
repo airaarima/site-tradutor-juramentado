@@ -10,7 +10,9 @@ const Home = () => {
             <p className={styles.description}>Comecei a traduzir em 2008 e em 2010 fiz o concurso para tradutora juramentada. Fui aprovada e desde então atuo na área realizando traduções tanto do espanhol para o português, como do português para o espanhol.</p>
             <a href="#contato" className={styles.contatoBtn}>Contate-me</a>
         </div>
-        <img src={getImgPath("pessoal/myImage.png")} alt="" className={styles.pessoalImg}/>
+        <div className={styles.divImg}>
+          <img src={getImgPath("pessoal/perfil2.jpg")} alt="Imagem pessoal" className={styles.pessoalImg}/>
+          </div>
     </section>
   )
 }
