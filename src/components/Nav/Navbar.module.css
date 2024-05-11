@@ -47,18 +47,8 @@
 
 @media screen and (max-width: 870px){
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu{
-        position: absolute;
-        right: 0;
-        margin-right: 10%;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 11px;
-        z-index: 3;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .menuBtn{
@@ -67,6 +57,7 @@
     }
 
     .menuItens{
+        position: absolute;
         display: none;
         flex-direction: column;
         align-items: center;
@@ -74,6 +65,9 @@
         border-radius: 4px;
         background: rgba(45, 45, 45, 0.868);
         padding: 20px 30px;
+        margin-top: 40px;
+        right: 0;
+        z-index: 3;
     }
 
     .menuItem{
