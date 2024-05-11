@@ -3,7 +3,6 @@
 
 
 .container{
-    margin-top: 30px;
     text-align: center;
 }
 
@@ -14,11 +13,12 @@
     font-size: 40px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10px;
 }
 
 .description{
     color: var(--color-text);
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     font-size: 25px;
     margin-left: 10%;
     margin-right: 10%;
@@ -28,8 +28,12 @@
     width: 50%;
 }
 
-.content{
+.contentMaior{
     display: flex;
+}
+
+.contentMenor{
+    display: none;
 }
 
 @media screen and (max-width: 820px){
@@ -42,12 +46,12 @@
     }
 }
 
-@media screen and (max-width: 500px){
-    .content{
+@media screen and (max-width: 600px){
+    .contentMaior{
         display: none;
     }
 
-    .description{
-        margin-bottom: 0px;
+    .contentMenor{
+        display: flex;
     }
 }
