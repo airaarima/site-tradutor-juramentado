@@ -1,20 +1,20 @@
 [
     {
-      "title": "Algum título",
-      "imageSrc": "trabalhos/imagem.png",
-      "description": "alguma descrição",
+      "title": "O que é a tradução juramentada?",
+      "imageSrc": "trabalhos/blog1.jpg",
+      "description": "A tradução juramentada é a tradução feita por um tradutor público, matriculado na junta comercial após aprovação em concurso público…",
       "link": "https://link/"
     },
       {
-        "title": "Algum título",
-        "imageSrc": "trabalhos/imagem.png",
-        "description": "alguma descrição",
+        "title": "Eu preciso de uma tradução juramentada?",
+        "imageSrc": "trabalhos/blog2.jpg",
+        "description": "A tradução juramentada é a única reconhecida oficialmente por instituições e órgãos públicos diversos no Brasil e tem validade como documento…",
         "link": "https://link/"
       },
       {
-        "title": "Algum título",
-        "imageSrc": "trabalhos/imagem.png",
-        "description": "alguma descrição",
+        "title": "Por que procurar por um tradutor?",
+        "imageSrc": "trabalhos/blog3.jpg",
+        "description": "A tradução tem uma ampla gama de atuação, podendo se estender desde a tradução de procurações, contratos, inventários, artigos científicos, documentos de imigração…",
         "link": "https://link/"
       }
     ]
