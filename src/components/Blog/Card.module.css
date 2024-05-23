@@ -1,6 +1,6 @@
 @import '../../vars.css';
 
-.container{
+.cardContainer{
     display: flex;
     flex-direction: column;
     border-radius: 3px;
@@ -28,6 +28,8 @@
 }
 
 .seta{
+    border: 0px;
+    background-color: white;
     align-self: flex-end;
     position: absolute;
     bottom: 0;
@@ -39,9 +41,109 @@
     width: 40px;
 }
 
+.seta:hover{
+    cursor: pointer;
+}
+
+.modalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalOverlay{
+    background-color: rgba(255, 255, 255, 0.475);
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent{
+    width: 70%;
+    height: 70%;
+    max-width: 700px;
+    max-height: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 3px;
+    overflow-y: auto;
+}
+
+.modalTitle{
+    margin-bottom: 5px;
+}
+
+.modalDescription{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.modalDescription>p{
+    padding-top: 15px;
+}
+
+.modalDescription>ul{
+    margin-top: 10px;
+}
+
+.modalDescription>ul>li{
+    margin-left: 35px;
+}
+
+.divCitacao{
+    margin-top: 5px;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.modalImg{
+    width: 60%;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.divBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btnCloseModal{
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btnCloseModal:hover{
+    background-color: var(--color-tertiary);transition: 0.4s;
+}
+
 @media screen and (max-width: 740px){
     .title{
         font-size: 20px;
         text-align: center;
+    }
+
+    .modalContent{
+        width: 90%;
+        height: 70%;
+    }
+
+    .modalImg{
+        width: 100%;
     }
 }
