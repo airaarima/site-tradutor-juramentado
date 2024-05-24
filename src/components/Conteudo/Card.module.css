@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.cardContainer:hover{
+    cursor: pointer;
+}
+
 .img{
     margin-bottom: 10px;
     border-radius: 3px;

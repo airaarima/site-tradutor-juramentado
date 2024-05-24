@@ -18,17 +18,19 @@ const Card = () => {
   }
 
   return (
-    <div className={styles.cardContainer}>
-        <img
-          src={getImgPath("trabalhos/blog3.jpg")}
-          alt="Foto de josiane"
-          className={styles.img}
-        />
-        <h3 className={styles.title}>Por que procurar por um tradutor?</h3>
-        <p className={styles.description}>A tradução tem uma ampla gama de atuação, podendo se estender desde a documentos pessoais, contratos e questões jurídicas no geral e…</p>
-        <button onClick={openModal} target="_blank" className={styles.seta}>
-          <img src={getImgPath("trabalhos/seta.png")} alt="" />
-        </button>
+    <div>
+        <a className={styles.cardContainer} onClick={openModal}>
+          <img
+            src={getImgPath("trabalhos/blog3.jpg")}
+            alt="Foto de josiane"
+            className={styles.img}
+          />
+          <h3 className={styles.title}>Por que procurar por um tradutor?</h3>
+          <p className={styles.description}>A tradução tem uma ampla gama de atuação, podendo se estender desde a documentos pessoais, contratos e questões jurídicas no geral e…</p>
+          <button onClick={openModal} target="_blank" className={styles.seta}>
+            <img src={getImgPath("trabalhos/seta.png")} alt="" />
+          </button>
+        </a>
         <div className={styles.modalContainer}>
           <Modal
           isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Modal de Publicação" overlayClassName={styles.modalOverlay} className={styles.modalContent}>
