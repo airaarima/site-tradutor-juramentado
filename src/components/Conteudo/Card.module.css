@@ -52,7 +52,7 @@
 }
 
 .modalOverlay{
-    background-color: rgba(255, 255, 255, 0.475);
+    background-color: rgba(0, 0, 0, 0.626);
     position:fixed;
     top: 0;
     bottom: 0;

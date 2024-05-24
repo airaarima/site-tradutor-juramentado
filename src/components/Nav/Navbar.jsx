@@ -13,8 +13,8 @@ const Navbar = () => {
           <img className={styles.menuBtn} src={menuOpen ? getImgPath("nav/closeIcon.png") : getImgPath("nav/menuIcon.png")} alt="menu-button" onClick={() => setMenuOpen(!menuOpen)}/>
             <ul className={`${styles.menuItens} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
                 <li><a href="#home" className={styles.menuItem}>Home</a></li>
-                <li><a href="#sobre" className={styles.menuItem}>Sobre</a></li>
-                <li><a href="#blog" className={styles.menuItem}>Blog</a></li>
+                <li><a href="#servicos" className={styles.menuItem}>Serviços</a></li>
+                <li><a href="#conteudo" className={styles.menuItem}>Conteúdo</a></li>
                 <li><a href="#contato" className={styles.menuItem}>Contato</a></li>
             </ul>
         </div>

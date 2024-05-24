@@ -7,6 +7,7 @@ const Contato = () => {
     <section className={styles.container} id="contato">
         <div className={styles.contentText}>
             <h2 className={styles.title}>Contato</h2>
+            <p className={styles.description}>Gostaria de solicitar um orçamento?</p>
             <p className={styles.description}>Sinta-se a vontade para entrar em contato comigo!</p>
         </div>
         <div className={styles.contacts}>

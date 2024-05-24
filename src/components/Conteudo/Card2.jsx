@@ -32,7 +32,7 @@ const Card = () => {
         <div className={styles.modalContainer}>
           <Modal
           isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Modal de Publicação" overlayClassName={styles.modalOverlay} className={styles.modalContent}>
-            <h3 className={styles.modalTitle}>Quem precisa de tradução juramentada?</h3>
+            <h3 className={styles.modalTitle}>Eu preciso de uma tradução juramentada?</h3>
             <hr />
             <div className={styles.modalDescription}>
               <p>A legislação brasileira exige a tradução juramentada de documentos em língua estrangeira para que estes tenham validade no Brasil. No caso de versão juramentada do português para uma língua estrangeira, a validade é determinada pela legislação do país de destino.</p>
