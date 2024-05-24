@@ -19,14 +19,14 @@ const Servicos = () => {
                 <li className={styles.sobreItem}>
                     <img src={getImgPath("sobre/versatil-branco.png")} alt="Versatile icon" />
                     <div className={styles.sobreItemText}>
-                        <h3>Versátil</h3>
+                        <h3>Tradutora Freelancer Versátil</h3>
                         <p>Tradutora de uma ampla gama de temas, desde traduções na área de máquinas agrícolas, artigos da área acadêmica, entre outros.</p>
                     </div>
                 </li>
                 <li className={styles.sobreItem}>
                     <img src={getImgPath("sobre/determinada-branco.png")} alt="Simple line globe icon" />
                     <div className={styles.sobreItemText}>
-                        <h3>Determinada</h3>
+                        <h3>Profissional Determinada</h3>
                         <p>Baseada em Santa Maria, mas disposta a enviar traduções para todo o Brasil e exterior.</p>
                     </div>
                 </li>
